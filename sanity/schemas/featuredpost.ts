@@ -1,0 +1,1 @@
+// add boolean for featured post
