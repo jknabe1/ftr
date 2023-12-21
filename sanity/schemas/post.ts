@@ -9,6 +9,14 @@ export default {
       title: 'Title',
     },
     {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+      option: {
+          hotspot: true,
+      }
+  },
+    {
       name: 'overview',
       type: 'string',
       title: 'Overview',

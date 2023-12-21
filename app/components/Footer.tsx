@@ -191,9 +191,12 @@ const Footer = () => {
         </ul>
 
         <p className="mt-8 text-xs text-gray-500 sm:mt-0">
-          &copy; 2022. Company Name. All rights reserved.
+          &copy; 2022. FLIP THE RECORD | All rights reserved.
         </p>
       </div>
+      <p className="mt-8 text-xs text-gray-500 center sm:mt-0 float-  right">
+          Utvecklat av K&K Media Group Sweden AB.
+        </p>
     </div>
   </div>
 </footer>
