@@ -75,11 +75,12 @@ const Header: React.FC = () => {
 
   return (
     <div>
-      <nav className='border-y-4 border-black'>
+      <header className="sticky top-0 z-50 box-border dark:bg-transparent-black bg-transparent-white dark:!border-b-solid-grey3 !border-b-transparent-grey backdrop-blur-[5px]">
+      <nav className='border-y-4 border-black text-black bg-white'>
         <div className="logo">Impulse</div>
         <div className="menu-open-btn">Menu</div>
       </nav>
-      <div className="menu-overlay">
+      <div className="menu-overlay border-y-4 border-black">
         <div className="menu-nav">
           <div className="menu-logo">Impulse</div>
           <div className="menu-close-btn">Close</div>
@@ -130,6 +131,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
+      </header>
     </div>
   );
 }

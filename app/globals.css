@@ -60,42 +60,10 @@
     z-index: 0;
   }
   
-  .website-content {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    margin-top: 10em;
-    padding: 6em 2em;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 0;
-  }
-  
-  .website-content h1 {
-    font-size: 80px;
-    font-weight: 500;
-    margin-bottom: 0.25em;
-  }
-  
-  .website-content p {
-    font-size: 24px;
-    font-weight: 400;
-  }
-  
   .menu-open-btn {
     cursor: pointer;
   }
-  
-  h1.header {
-    position: absolute;
-    bottom: 0;
-    margin: 0.25em;
-    font-weight: 400;
-    color: #fff;
-    font-size: 140px;
-    line-height: 1;
-  }
-  
+    
   .menu-overlay {
     position: fixed;
     top: 0;
