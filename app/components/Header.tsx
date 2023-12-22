@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import '@/app/globals.css'
+import Link from 'next/link';
 
 const Header: React.FC = () => {
   useEffect(() => {
@@ -75,14 +76,18 @@ const Header: React.FC = () => {
 
   return (
     <div>
-      <header className="sticky top-0 z-50 box-border dark:bg-transparent-black bg-transparent-white dark:!border-b-solid-grey3 !border-b-transparent-grey backdrop-blur-[5px]">
+      <header className="sticky top-0 z-50 box-border">
       <nav className='border-y-4 border-black text-black bg-white'>
-        <div className="logo">Impulse</div>
+        <div className="logo"><div className="menu-logo">
+            <Link href="/">FTR</Link>
+            </div></div>
         <div className="menu-open-btn">Menu</div>
       </nav>
       <div className="menu-overlay border-y-4 border-black">
         <div className="menu-nav">
-          <div className="menu-logo">Impulse</div>
+          <div className="menu-logo">
+            FTR
+            </div>
           <div className="menu-close-btn">Close</div>
         </div>
         <div className="menu-cols">
@@ -122,7 +127,9 @@ const Header: React.FC = () => {
         <div className="menu-footer">
           <div className="menu-divider"></div>
           <div className="menu-footer-copy">
-            <div className="slogan"><p>s Brands, Today.™</p></div>
+            <div className="slogan">
+              <p>Flip The Record - K&K Records™</p>
+              </div>
             <div className="socials">
               <a href="#">Twitter</a>
               <a href="#">Instagram</a>

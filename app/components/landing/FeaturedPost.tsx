@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export function FeaturedPost() {
   return (
-    <div className="relative bg-[#bd1e59] h-[500px]">
+    <div className="relative bg-[#bd1e59] h-[500px] mt-28">
       <Image
         alt="Romy Lee"
         className="object-cover w-full h-full"

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Component() {
   return (
-    <section className="w-full py-20 md:py-24 bg-gradient-to-r from-rose-100 to-teal-100">
+    <section className="w-full py-20 md:py-24 bg-gradient-to-r from-rose-100 to-teal-100 border-y-4 border-black">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 items-center">
           <div className="flex flex-col justify-center space-y-4 text-center">

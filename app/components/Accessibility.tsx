@@ -9,11 +9,7 @@ export default function Accessibility () {
 
   return (
         <>
-          <button
-            className="fixed bottom-0 right-0 h-16 w-20 bg-white border-x-4 border-t-4 border border-black"
-            type="button"
-            onClick={() => setShowModal(true)}
-          >
+          <button className="fixed bottom-0 right-0 h-16 w-20 bg-white border-x-4 border-t-4 border border-black" type="button" onClick={() => setShowModal(true)} aria-label="Accessbility Button">
             <AccessibilityIcon/>
           </button>
           {showModal ? (
